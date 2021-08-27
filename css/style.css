@@ -1,0 +1,65 @@
+body{
+    background-color: white;
+}
+header{
+    background-image: linear-gradient(to bottom, purple, orchid);
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px ;
+}
+header > h1 {
+    color: white;
+    font-size: 3em;
+    margin-bottom: 20px ;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.50);
+}
+header > p{
+    font-size: 1.2em;
+    color: white;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.35);
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+}
+nav{
+    padding: 10px;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.35);
+    background-color: orchid;
+}
+nav > a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 1s;
+
+}
+nav > a:hover{
+    background-color: blueviolet;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    background-image: linear-gradient(to bottom, purple, orchid);
+    border-radius:20px;
+    text-align: center;
+    color: white;
+}
+footer{
+    background-image: linear-gradient(to bottom, purple, orchid);
+    min-height: 50px;
+    text-align: center;
+    padding-top: 20px ;
+    color: white;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 7px 7px 9px rgba(0, 0, 0, 0.35);   
+}
+footer > p {
+    font-size: 1.2em;
+    color: white;
+}
